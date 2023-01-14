@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliss Events</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Oleo+Script+Swash+Caps&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Great+Vibes&family=Oleo+Script+Swash+Caps&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Great+Vibes&family=Oleo+Script+Swash+Caps&family=Raleway:ital,wght@1,100;1,300&display=swap"
+        rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Peralta&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        min-width: 100%;
+        overflow-x: hidden;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    header .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        min-height: 10vh;
+        min-width: 100%;
+        z-index: 10;
+        background: rgb(12, 20, 45);
+        border-bottom: 2px solid #6f5f0e;
+    }
+
+    header .navigation .logo {
+        margin-left: 20px;
+    }
+
+    header .navigation .menu-list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 45%;
+        margin: auto 100px auto 0;
+    }
+
+    header .navigation .menu-list li a {
+        /* color: #b1d4e0; */
+        color: goldenrod;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: color 0.3s ease, border 0.3s ease;
+        text-decoration: none;
+    }
+
+    .navigation .menu-list li a:hover {
+        color: #b1d4e0;
+    }
+
+    .navigation .menu-list li a.active {
+        text-decoration: underline;
+    }
+    
+    .gap{
+        margin-right: 1rem;
+        margin-left: 2rem;
+        margin-top: 10rem;
+    }
+    
+    .bg{
+        background-image: url('images/8.jpg');
+        background-repeat: no-repeat;
+        background-size: 1300px 700px;
+    }
+    
+    .white-box {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-top: 10rem;
+        background-color: white;
+        color: black;
+        border: 1px solid gray;
+        padding: 8px;
+    }
+
+    p{
+        text-indent: 50px;
+        text-align: justify;
+        letter-spacing: 3px;
+    }
+</style>
+
+<body class="bg">
+    <!--====== Header Section Start ======-->
+    <header>
+        <nav class="navigation">
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="images/logo.png" width="100px" height="50px">
+            </div>
+
+            <!-- Navigation -->
+            <ul class="menu-list">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="aboutus.php">About Us</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="contactus.php">Contact us</a></li>
+            </ul>
+
+            <div class="humbarger">
+                <div class="bar"></div>
+                <div class="bar2 bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+    <div class="white-box">
+            <h2><center>Designer Invitations</center></h2>
+            <br>
+            <p>
+                First impressions create lasting memories and hence your wedding invites should be unique and impressive. In the modern electronic age, destination weddings or intimate weddings have known to make use of the electronic medium to send out wedding invites. However, quite many families still choose to do this the traditional way by sending wedding invitations to each guest. Over the years, the art and detailing of wedding invites has evolved significantly. From elaborate boxes to gift packaging and so much in between, it truly symbolizes what the wedding celebrations ahead could look like. Our team of award winning wedding designers help conceptualize and ideate your wedding invitation options based on your budgets, style and preferences.
+            </p>
+    </div>
+</body>
+</html>

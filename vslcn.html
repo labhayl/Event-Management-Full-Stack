@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliss Events</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Oleo+Script+Swash+Caps&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Great+Vibes&family=Oleo+Script+Swash+Caps&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Great+Vibes&family=Oleo+Script+Swash+Caps&family=Raleway:ital,wght@1,100;1,300&display=swap"
+        rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Peralta&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        min-width: 100%;
+        overflow-x: hidden;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    header .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        min-height: 10vh;
+        min-width: 100%;
+        z-index: 10;
+        background: rgb(12, 20, 45);
+        border-bottom: 2px solid #6f5f0e;
+    }
+
+    header .navigation .logo {
+        margin-left: 20px;
+    }
+
+    header .navigation .menu-list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 45%;
+        margin: auto 100px auto 0;
+    }
+
+    header .navigation .menu-list li a {
+        /* color: #b1d4e0; */
+        color: goldenrod;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: color 0.3s ease, border 0.3s ease;
+        text-decoration: none;
+    }
+
+    .navigation .menu-list li a:hover {
+        color: #b1d4e0;
+    }
+
+    .navigation .menu-list li a.active {
+        text-decoration: underline;
+    }
+
+    .gap{
+        margin-right: 1rem;
+        margin-left: 2rem;
+        margin-top: 10rem;
+    }
+    
+    .bg{
+        background-image: url('images/6.jpg');
+        background-repeat: no-repeat;
+        background-size: 1300px 700px;
+    }
+    
+    .white-box {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-top: 10rem;
+        background-color: white;
+        color: black;
+        border: 1px solid gray;
+        padding: 8px;
+    }
+    
+    p{
+        text-indent: 50px;
+        text-align: justify;
+        letter-spacing: 3px;
+    }
+</style>
+
+<body class="bg">
+    <!--====== Header Section Start ======-->
+    <header>
+        <nav class="navigation">
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="images/logo.png" width="100px" height="50px">
+            </div>
+
+            <!-- Navigation -->
+            <ul class="menu-list">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="aboutus.php">About Us</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="contactus.php">Contact us</a></li>
+            </ul>
+
+            <div class="humbarger">
+                <div class="bar"></div>
+                <div class="bar2 bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+    <div class="white-box">
+            <h2><center>Venue Selection</center></h2>
+            <br>
+            <p>
+                Identifying and shortlisting suitable venues for all the events is the first step in planning a wedding. You may want to call your vows by the beach or choose to host your wedding reception in a ballroom. There are always options available in plenty. With over 10 years of experience in the region as the best wedding planners in Dubai, our team of experts helps narrow down the search for that perfect venue for your big day keeping in mind the offering and the value that the venue has to offer. Our professional wedding planners work within the parameters set by you in terms of preferences, budget and experiences. Once you’ve defined your requirements, we bring you the best of venues that will have your guests amazed.
+            </p>
+    </div>
+</body>
+</html>
