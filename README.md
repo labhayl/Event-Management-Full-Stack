@@ -3,7 +3,7 @@
 
 The application of project management to the creation and development of large scale events. It involves studying the brand, identifying the target audience, devising the event concept, planning the logistics, and coordinating the technical aspects before actually launching the event.
 
-__Tech Stack Used__ -
+__Tech Stack Used__ -  
 *Frontend* - HTML, CSS, Javascript  
 *Backend* - PHP  
 *Server* - Wampserver  
