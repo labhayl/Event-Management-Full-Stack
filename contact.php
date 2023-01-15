@@ -2,9 +2,9 @@
 if(isset($_POST['name']))
 {
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "trial";
+$username = "id20151106_trial";
+$password = "qwertyuiopAPS-1";
+$dbname = "id20151106_trial1";
 
 // Create connection
 $conn = new mysqli($servername,$username,$password,$dbname);
@@ -22,11 +22,14 @@ $message = $_POST['message'];
 if ($name==""){
 	echo("The name cannot be blank.");
 }
-elseif ($message==""){
-	echo("The message cannot be blank.");
+elseif ($email==""){
+	echo("The email address cannot be blank.");
 }
 elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-	echo("The email ".$email." is not a valid email.");
+	echo("The email '".$email."' is not a valid email.");
+}
+elseif ($message==""){
+	echo("The message cannot be blank.");
 }
 else {
 	$sqlquery = "INSERT INTO `contact` (`name`,`email`,`sub`,`dsc`) VALUES ('$name','$email','$subject','$message')";
