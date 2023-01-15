@@ -5,24 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <!--<script>
-      function Validate(){
-        var name = document.getElementById("name");
-        var email = document.getElementById("email");
-        var message = document.getElementById("message");
-        var mailformat = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
-        if (name==""){
-          alert("Name cannot be empty!")
-        }
-        if(!(email.match(mailformat))){
-          alert("Please enter a valid email!")
-        }
-        if (message==""){
-          alert("Message cannot be empty!")
-        }
-        return true;
-      }
-    </script>-->  
 </head>
 <style>
 *{
@@ -154,7 +136,7 @@ input[type=submit]:hover {
         <option value="Venue Selection">Venue Selection</option>
         <option value="Bridal Care">Bridal Care</option>
         <option value="Designer Invitations">Designer Invitations</option>
-        <option value="General Query">General Query</option>        
+        <option value="General Query" selected>General Query</option>        
         </select>
 
         <label for="message">Message</label>
