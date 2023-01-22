@@ -5,8 +5,7 @@ The application of project management to the creation and development of large s
 
 __Tech Stack Used__ -  
 *Frontend* - HTML, CSS, Javascript  
-*Backend* - PHP,MySQL  
-*Server* - Wampserver   
+*Backend* - Apache,PHP,MySQL  
 *Web hosting* - 000webhost    
 
 Output Screenshots - 
