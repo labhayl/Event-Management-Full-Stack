@@ -1,4 +1,4 @@
-# Event-Management-Full-Stack
+# Bliss Events (Event-Management-Full-Stack)
 [Bliss Events](https://blissevent.000webhostapp.com/) (Event Management Website) – A website to book destination weddings, birthdays, engagements, parties etc.
 
 The application of project management to the creation and development of large scale events. It involves studying the brand, identifying the target audience, devising the event concept, planning the logistics, and coordinating the technical aspects before actually launching the event.
